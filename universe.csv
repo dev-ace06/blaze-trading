@@ -1,0 +1,101 @@
+symbol,yfinance_ticker,company_name,aliases
+ADANIENT,ADANIENT.NS,Adani Enterprises,Adani Enterprises|Adani Ent
+ADANIPORTS,ADANIPORTS.NS,Adani Ports and Special Economic Zone,Adani Ports|APSEZ
+APOLLOHOSP,APOLLOHOSP.NS,Apollo Hospitals Enterprise,Apollo Hospitals|Apollo Hospital
+ASIANPAINT,ASIANPAINT.NS,Asian Paints,Asian Paints
+AXISBANK,AXISBANK.NS,Axis Bank,Axis Bank
+BAJAJ-AUTO,BAJAJ-AUTO.NS,Bajaj Auto,Bajaj Auto
+BAJFINANCE,BAJFINANCE.NS,Bajaj Finance,Bajaj Finance|Bajaj Fin
+BAJAJFINSV,BAJAJFINSV.NS,Bajaj Finserv,Bajaj Finserv
+BEL,BEL.NS,Bharat Electronics,Bharat Electronics|BEL
+BHARTIARTL,BHARTIARTL.NS,Bharti Airtel,Bharti Airtel|Airtel
+CIPLA,CIPLA.NS,Cipla,Cipla
+COALINDIA,COALINDIA.NS,Coal India,Coal India|CIL
+DRREDDY,DRREDDY.NS,Dr Reddys Laboratories,Dr Reddy|Reddys Labs
+EICHERMOT,EICHERMOT.NS,Eicher Motors,Eicher Motors|Royal Enfield
+ETERNAL,ETERNAL.NS,Eternal,Eternal|Zomato
+GRASIM,GRASIM.NS,Grasim Industries,Grasim
+HCLTECH,HCLTECH.NS,HCL Technologies,HCL Technologies|HCL Tech
+HDFCBANK,HDFCBANK.NS,HDFC Bank,HDFC Bank
+HDFCLIFE,HDFCLIFE.NS,HDFC Life Insurance,HDFC Life
+HEROMOTOCO,HEROMOTOCO.NS,Hero MotoCorp,Hero MotoCorp|Hero Moto
+HINDALCO,HINDALCO.NS,Hindalco Industries,Hindalco
+HINDUNILVR,HINDUNILVR.NS,Hindustan Unilever,Hindustan Unilever|HUL
+ICICIBANK,ICICIBANK.NS,ICICI Bank,ICICI Bank
+INDIGO,INDIGO.NS,InterGlobe Aviation,InterGlobe Aviation|IndiGo
+INFY,INFY.NS,Infosys,Infosys|Infy
+ITC,ITC.NS,ITC,ITC Limited|ITC
+JIOFIN,JIOFIN.NS,Jio Financial Services,Jio Financial|Jio Finance
+JSWSTEEL,JSWSTEEL.NS,JSW Steel,JSW Steel
+KOTAKBANK,KOTAKBANK.NS,Kotak Mahindra Bank,Kotak Mahindra Bank|Kotak Bank
+LT,LT.NS,Larsen and Toubro,Larsen and Toubro|L&T
+M&M,M&M.NS,Mahindra and Mahindra,Mahindra and Mahindra|M&M
+MARUTI,MARUTI.NS,Maruti Suzuki India,Maruti Suzuki|Maruti
+NESTLEIND,NESTLEIND.NS,Nestle India,Nestle India
+NTPC,NTPC.NS,NTPC,NTPC
+ONGC,ONGC.NS,Oil and Natural Gas Corporation,ONGC|Oil and Natural Gas
+POWERGRID,POWERGRID.NS,Power Grid Corporation of India,Power Grid|PGCIL
+RELIANCE,RELIANCE.NS,Reliance Industries,Reliance Industries|RIL|Reliance
+SBILIFE,SBILIFE.NS,SBI Life Insurance,SBI Life
+SBIN,SBIN.NS,State Bank of India,State Bank of India|SBI
+SHRIRAMFIN,SHRIRAMFIN.NS,Shriram Finance,Shriram Finance
+SUNPHARMA,SUNPHARMA.NS,Sun Pharmaceutical Industries,Sun Pharma|Sun Pharmaceutical
+TATACONSUM,TATACONSUM.NS,Tata Consumer Products,Tata Consumer
+TMPV,TMPV.NS,Tata Motors Passenger Vehicles,Tata Motors Passenger Vehicles|Tata Motors PV|TMPV
+TATASTEEL,TATASTEEL.NS,Tata Steel,Tata Steel
+TCS,TCS.NS,Tata Consultancy Services,Tata Consultancy Services|TCS
+TECHM,TECHM.NS,Tech Mahindra,Tech Mahindra
+TITAN,TITAN.NS,Titan Company,Titan Company|Titan
+TRENT,TRENT.NS,Trent,Trent|Westside
+ULTRACEMCO,ULTRACEMCO.NS,UltraTech Cement,UltraTech Cement|Ultratech
+WIPRO,WIPRO.NS,Wipro,Wipro
+ABB,ABB.NS,ABB India,ABB India|ABB
+ACC,ACC.NS,ACC,ACC Cement|ACC
+AMBUJACEM,AMBUJACEM.NS,Ambuja Cements,Ambuja Cements|Ambuja Cement
+ASHOKLEY,ASHOKLEY.NS,Ashok Leyland,Ashok Leyland
+AUBANK,AUBANK.NS,AU Small Finance Bank,AU Small Finance Bank|AU Bank
+AUROPHARMA,AUROPHARMA.NS,Aurobindo Pharma,Aurobindo Pharma
+BANKBARODA,BANKBARODA.NS,Bank of Baroda,Bank of Baroda|BoB
+BHEL,BHEL.NS,Bharat Heavy Electricals,BHEL|Bharat Heavy Electricals
+BIOCON,BIOCON.NS,Biocon,Biocon
+BPCL,BPCL.NS,Bharat Petroleum Corporation,BPCL|Bharat Petroleum
+BRITANNIA,BRITANNIA.NS,Britannia Industries,Britannia
+CANBK,CANBK.NS,Canara Bank,Canara Bank
+CGPOWER,CGPOWER.NS,CG Power and Industrial Solutions,CG Power
+CHOLAFIN,CHOLAFIN.NS,Cholamandalam Investment and Finance,Cholamandalam Finance|Chola Finance
+COFORGE,COFORGE.NS,Coforge,Coforge
+COLPAL,COLPAL.NS,Colgate Palmolive India,Colgate Palmolive|Colgate India
+CONCOR,CONCOR.NS,Container Corporation of India,Container Corporation|CONCOR
+DABUR,DABUR.NS,Dabur India,Dabur
+DIVISLAB,DIVISLAB.NS,Divis Laboratories,Divis Labs|Divis Laboratories
+DLF,DLF.NS,DLF,DLF
+DMART,DMART.NS,Avenue Supermarts,Avenue Supermarts|DMart
+FEDERALBNK,FEDERALBNK.NS,Federal Bank,Federal Bank
+GAIL,GAIL.NS,GAIL India,GAIL|Gas Authority of India
+GODREJPROP,GODREJPROP.NS,Godrej Properties,Godrej Properties
+HAL,HAL.NS,Hindustan Aeronautics,Hindustan Aeronautics|HAL
+HAVELLS,HAVELLS.NS,Havells India,Havells
+HDFCAMC,HDFCAMC.NS,HDFC Asset Management Company,HDFC AMC
+HINDPETRO,HINDPETRO.NS,Hindustan Petroleum Corporation,Hindustan Petroleum|HPCL
+IDFCFIRSTB,IDFCFIRSTB.NS,IDFC First Bank,IDFC First Bank
+IOC,IOC.NS,Indian Oil Corporation,Indian Oil|IOC
+IRCTC,IRCTC.NS,Indian Railway Catering and Tourism Corporation,IRCTC
+IRFC,IRFC.NS,Indian Railway Finance Corporation,IRFC
+JINDALSTEL,JINDALSTEL.NS,Jindal Steel and Power,Jindal Steel|JSPL
+JSWENERGY,JSWENERGY.NS,JSW Energy,JSW Energy
+LICI,LICI.NS,Life Insurance Corporation of India,LIC India|LIC
+LUPIN,LUPIN.NS,Lupin,Lupin
+MAXHEALTH,MAXHEALTH.NS,Max Healthcare Institute,Max Healthcare
+MOTHERSON,MOTHERSON.NS,Samvardhana Motherson International,Motherson|Samvardhana Motherson
+MPHASIS,MPHASIS.NS,Mphasis,Mphasis
+MUTHOOTFIN,MUTHOOTFIN.NS,Muthoot Finance,Muthoot Finance
+NAUKRI,NAUKRI.NS,Info Edge India,Info Edge|Naukri
+NATIONALUM,NATIONALUM.NS,National Aluminium Company,National Aluminium|NALCO
+NMDC,NMDC.NS,NMDC,NMDC
+OFSS,OFSS.NS,Oracle Financial Services Software,Oracle Financial Services|OFSS
+PERSISTENT,PERSISTENT.NS,Persistent Systems,Persistent Systems
+PFC,PFC.NS,Power Finance Corporation,Power Finance Corporation|PFC
+PNB,PNB.NS,Punjab National Bank,Punjab National Bank|PNB
+RECLTD,RECLTD.NS,REC,REC Limited|Rural Electrification Corporation
+TATAPOWER,TATAPOWER.NS,Tata Power Company,Tata Power
+TVSMOTOR,TVSMOTOR.NS,TVS Motor Company,TVS Motor

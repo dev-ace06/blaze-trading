@@ -1,0 +1,13 @@
+.env
+.venv/
+.scratch/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+data/
+logs/
+STOP
+reports/
+*.log
+.serena/

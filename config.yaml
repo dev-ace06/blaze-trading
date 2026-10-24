@@ -1,0 +1,117 @@
+timezone: Asia/Kolkata
+initial_equity: 1000000
+
+schedule:
+  startup: "08:30"
+  preopen_start: "09:00"
+  market_open: "09:15"
+  entry_start: "09:30"
+  entry_end: "14:15"
+  square_off: "14:50"
+  market_close: "15:30"
+  candle_minutes: 5
+  news_poll_seconds: 90
+  rerank_minutes: 15
+  loop_interval_seconds: 0.5
+  feed_poll_seconds: 45
+  heartbeat_seconds: 60
+  entry_max_lag_seconds: 180
+
+risk:
+  risk_per_trade: 0.0125
+  daily_loss_limit: 0.05
+  max_attempts_per_stock: 2
+  max_trades_per_day: 8
+  max_concurrent_positions: 3
+  max_notional_fraction: 0.40
+  leverage_cap: 3.0
+  max_gross_exposure: 3.0
+  min_stop_pct: 0.003
+
+selection:
+  top_n: 5
+  min_price: 100
+  min_avg_daily_value_cr: 200
+  min_or_width_pct: 0.0025
+  max_or_atr_multiple: 2.5
+  gap_weight: 0.35
+  rvol_weight: 0.35
+  or_width_weight: 0.15
+  news_weight: 0.15
+
+strategy:
+  candle_rvol_min: 1.5
+  max_extension_atr: 0.6
+  breakeven_r: 1.0
+  partial_r: 2.0
+  partial_fraction: 0.5
+  trail_atr_buffer: 0.1
+
+sentiment:
+  bullish_threshold: 0.25
+  bearish_threshold: -0.25
+  premarket_weight: 0.7
+  market_news_weight: 0.3
+  intraday_day_bias_weight: 0.5
+  intraday_nifty_weight: 0.5
+  nifty_vwap_scale: 0.003
+  components:
+    gift_nifty: {weight: 0.35, scale: 0.006, sign: 1}
+    us_futures: {weight: 0.15, scale: 0.006, sign: 1}
+    us_prior_close: {weight: 0.10, scale: 0.010, sign: 1}
+    asia: {weight: 0.15, scale: 0.008, sign: 1}
+    india_vix: {weight: 0.10, scale: 0.10, sign: -1}
+    usd_inr: {weight: 0.05, scale: 0.003, sign: -1}
+    brent: {weight: 0.05, scale: 0.020, sign: -1}
+    fii_cash_cr: {weight: 0.05, scale: 3000, sign: 1}
+
+news:
+  max_age_hours: 18
+  half_life_minutes: 90
+  gemini_model: gemini-3.8-flash
+  gemini_calls_per_minute: 10
+  gemini_batch_size: 10
+  request_timeout_seconds: 8
+  negative_block: -0.5
+  positive_block: 0.5
+  entry_negative_limit: -0.3
+  entry_positive_limit: 0.3
+  ranking_boost_threshold: 0.4
+  severe_exit_threshold: 0.7
+  severe_market_score: -0.6
+  severe_market_severity: 0.8
+  long_pause_minutes: 15
+  sources:
+    - https://www.moneycontrol.com/rss/marketreports.xml
+    - https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms
+    - https://www.business-standard.com/rss/markets-106.rss
+    - https://www.livemint.com/rss/markets
+
+costs:
+  brokerage_per_order: 0.0
+  stt_sell: 0.00025
+  exchange_txn: 0.0000297
+  sebi_per_crore: 10.0
+  stamp_buy: 0.00003
+  gst: 0.18
+  slippage: 0.0003
+
+broker:
+  environment: prod
+  exchange_segment: nse_cm
+  product: MIS
+  order_type: MKT
+  validity: DAY
+  broker_side_stops: false
+  request_timeout_seconds: 10
+  exit_retries: 3
+  use_broker_equity: false
+  flatten_settle_seconds: 3.0
+  stale_quote_seconds: 20.0
+
+backtest:
+  interval: 5m
+  batch_size: 15
+  initial_equity: 1000000
+  cache_dir: data
+  output_dir: reports/backtest

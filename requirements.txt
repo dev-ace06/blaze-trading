@@ -1,0 +1,12 @@
+yfinance
+pandas
+numpy
+pyyaml
+python-dotenv
+pyotp
+feedparser
+requests
+google-genai
+matplotlib
+pytest
+kotakneoapi @ git+https://github.com/Kotak-Neo/kotak-neo-python.git@4843eb882bd3df2f643e3ea09c2c312a11ca04f8
